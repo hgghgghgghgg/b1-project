@@ -1,0 +1,21 @@
+{
+  "name": "b1-project",
+  "version": "1.0.0",
+  "description": "project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "b1-project"
+  },
+  "author": "hgg",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.0",
+    "parcel": "^2.10.0",
+    "sass": "^1.69.4"
+  }
+}
