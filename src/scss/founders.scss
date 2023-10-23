@@ -50,12 +50,13 @@
 
     @media only screen and (min-width: 1750px) {
         display: grid;
-        grid-template: repeat(2, 900px) / 1fr 1fr 1fr;
+        grid-template: repeat(2, 800px) 100px / 1fr 1fr 1fr;
+        height: 2000px;
     }
 
     @media only screen and (max-width: 1015px) {
         display: grid;
-        grid-template: repeat(3, 650px) 150px / 1fr 1fr;
+        grid-template: repeat(3, 650px) / 1fr 1fr;
         height: 2100px;
         justify-content: center;
         justify-items: end;
@@ -85,6 +86,7 @@
 
             @media only screen and (max-width: 1235px) and (min-width: 1130px) {
                 width: 500px;
+                object-fit: cover;
             }  
 
             @media only screen and (max-width: 1130px) and (min-width: 1015px) {
